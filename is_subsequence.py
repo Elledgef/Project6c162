@@ -10,7 +10,7 @@ def is_subsequence(string_a, string_b):
         return True
     if string_b == "":
         return False
-    if string_a[1] == string_b[1]:
+    if string_a[0] == string_b[0]:
         return is_subsequence(string_a[1:], string_b[1:])
     else:
         return is_subsequence(string_a, string_b[1:])

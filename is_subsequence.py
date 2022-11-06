@@ -1,11 +1,13 @@
 # Author: Faith Elledge
 # Date: 11/5/22
 # user: elledgef
-# Description:
+# Description: This code takes two strings as parameters and returns True if string A is subsquence of
+#string B or returns false if otherwise
 
 
 def is_subsequence(string_a, string_b):
-
+    """ This function returns true if string A is subsquence of string B or returns False if not
+    subsquence """
     if string_a == "":
         return True
     if string_b == "":
